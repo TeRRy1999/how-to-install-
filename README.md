@@ -28,3 +28,8 @@ select an input method -> 選取新酷音後按下右邊的 Add
 --------------------how to intstall zsh and its font---------------------------
 1. install oh my zsh
 2. install https://github.com/powerline/fonts
+
+
+--------------------how to shorter zsh cmd--------------------------------
+1.https://medium.com/wearetheledger/oh-my-zsh-made-for-cli-lovers-installation-guide-3131ca5491fb
+2.find user and deleted it
