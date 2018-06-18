@@ -24,3 +24,7 @@ select an input method -> 選取新酷音後按下右邊的 Add
 
 之後就可以透過按下　ctrl + space 切換輸入法
 
+
+--------------------how to intstall zsh and its font---------------------------
+1. install oh my zsh
+2. install https://github.com/powerline/fonts
