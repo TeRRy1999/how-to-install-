@@ -26,10 +26,17 @@ select an input method -> 選取新酷音後按下右邊的 Add
 
 
 --------------------how to intstall zsh and its font---------------------------
-1. install oh my zsh
-2. install https://github.com/powerline/fonts
+1. sudo apt-get install zsh //install zsh default
+2. sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)" //install oh my zsh
+3. git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k //install powerlevel9k 
+4. vim ~/.zshrc //change the theme
+5. find ZSH_THEME="powerlevel9k/powerlevel9k"
+6. sudo apt-get install fonts-powerline
 
 
 --------------------how to shorter zsh cmd--------------------------------
-1.https://medium.com/wearetheledger/oh-my-zsh-made-for-cli-lovers-installation-guide-3131ca5491fb
-2.find user and deleted it
+1. cd ~/.oh-my-zsh/custom/powerlevel9k/powerlevel9k/
+2. sudo apt-get install vim
+3. vim powerlevel9k.zsh-theme 
+4. find and fix to <set_default POWERLEVEL9K_CONTEXT_THEMLATE "">
+
